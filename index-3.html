@@ -21,6 +21,12 @@
       href="../../../fonts.gstatic.com/index.html"
       crossorigin
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="../../../fonts.googleapis.com/css26e56.css?family=Handlee&amp;family=Open+Sans:wght@400;600&amp;family=Syne:wght@600;700&amp;display=swap"
       rel="stylesheet"
@@ -145,9 +151,9 @@
                 <li><a href="blog-details.html">Blog Details</a></li>
               </ul>
             </li>
-            <li class="menu-item-has-children">
-              <a href="#">Pages</a>
-              <ul class="sub-menu">
+            <li class="menu-item">
+              <a href="gallery-2.html">Our Gallery</a>
+              <!-- <ul class="sub-menu">
                 <li><a href="find-salon.html">Find a Salon</a></li>
                 <li><a href="gallery.html">Gallery One</a></li>
                 <li><a href="gallery-2.html">Gallery Two</a></li>
@@ -160,7 +166,7 @@
                 <li><a href="cart.html">Shopping Cart</a></li>
                 <li><a href="checkout.html">Check Out</a></li>
                 <li><a href="error.html">Error Page</a></li>
-              </ul>
+              </ul> -->
             </li>
             <li class="menu-item-has-children">
               <a href="#">Elements</a>
@@ -234,7 +240,7 @@
                       ><img
                         width="130"
                         height="80"
-                        src="assets/img/logo-mix.png"
+                        src="assets/img/abiii.png"
                         alt="Haarino"
                     /></a>
                   </div>
@@ -242,8 +248,18 @@
                 <div class="col col-sm-auto text-end text-lg-start">
                   <nav class="main-menu menu-style1 d-none d-lg-block">
                     <ul>
-                      <li class="menu-item-has-children">
-                        <a href="index.html"
+                      <li class="menu-i">
+                        <a
+                          class="nav-link"
+                          style="
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 18px; /* Initial size */
+                            font-weight: 600;
+                            color: #ffffff; /* Normal text color */
+                            text-decoration: none;
+                            transition: color 0.3s ease, font-size 0.3s ease;
+                          "
+                          href="index.html"
                           ><span class="has-new-lable">Home</span>
                         </a>
                         <!-- <ul class="sub-menu">
@@ -257,7 +273,21 @@
                           </li>
                         </ul> -->
                       </li>
-                      <li><a href="about.html">About</a></li>
+                      <li>
+                        <a
+                          class="nav-link"
+                          style="
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 18px; /* Initial size */
+                            font-weight: 600;
+                            color: #ffffff; /* Normal text color */
+                            text-decoration: none;
+                            transition: color 0.3s ease, font-size 0.3s ease;
+                          "
+                          href="about.html"
+                          >About</a
+                        >
+                      </li>
                       <!-- <li class="menu-item-has-children mega-menu-wrap">
                         <a href="#"
                           ><span class="has-new-lable"
@@ -335,9 +365,21 @@
                           </li>
                         </ul>
                       </li> -->
-                      <li class="menu-item-has-children mega-menu-wrap">
-                        <a href="#">Pages</a>
-                        <ul class="mega-menu">
+                      <li class="menu-item mega-menu-wrap">
+                        <a
+                          class="nav-link"
+                          style="
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 18px; /* Initial size */
+                            font-weight: 600;
+                            color: #ffffff; /* Normal text color */
+                            text-decoration: none;
+                            transition: color 0.3s ease, font-size 0.3s ease;
+                          "
+                          href="gallery-2.html"
+                          >Our Gallery</a
+                        >
+                        <!-- <ul class="mega-menu">
                           <li>
                             <a href="shop.html">Pagelist 1</a>
                             <ul>
@@ -412,9 +454,23 @@
                               <li><a href="error.html">Error Page</a></li>
                             </ul>
                           </li>
-                        </ul>
+                        </ul> -->
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li>
+                        <a
+                          class="nav-link"
+                          style="
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 18px; /* Initial size */
+                            font-weight: 600;
+                            color: #ffffff; /* Normal text color */
+                            text-decoration: none;
+                            transition: color 0.3s ease, font-size 0.3s ease;
+                          "
+                          href="contact.html"
+                          >Contact us</a
+                        >
+                      </li>
                     </ul>
                   </nav>
                   <button class="vs-menu-toggle d-inline-block d-lg-none">
@@ -471,29 +527,45 @@
           <h1
             style="
               top: 304px;
-              left: 365px;
-              font-weight: 600;
+              left: 205px;
+              font-weight: '600';
               background-size: inherit;
               background-position: inherit;
               font-size: 60px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),
+                /* subtle dark shadow */ 0px 0px 20px rgba(197, 162, 116, 0.8),
+                /* glowing gold shadow */ 0px 0px 30px rgba(197, 162, 116, 0.6); /* more glow effect */
+
+              -webkit-text-stroke: 1px #c5a274; /* Gold stroke around the text */
+              text-stroke: 1px #c5a274; /* Optional fallback for text-stroke */
             "
             class="ls-l ls-hide-tablet ls-hide-phone"
             data-ls="offsetxin:-200; durationin:1500; easingin:easeOutQuint; offsetxout:-200; durationout:1500; easingout:easeOutQuint;"
           >
-            Purley's #1 Luxury Hair and Beauty Spa
+            Purley's
+            <span style="color: '#c5a274'; font-size: 100px; font-weight: '600'"
+              >#1</span
+            >
+            Luxury Hair and Beauty Spa
           </h1>
           <h1
             style="
-              top: 380px;
-              left: 365px;
+              top: 500px;
+              left: 205px;
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
               font-size: 35px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),
+                /* subtle dark shadow */ 0px 0px 20px rgba(197, 162, 116, 0.8),
+                /* glowing gold shadow */ 0px 0px 30px rgba(197, 162, 116, 0.6); /* more glow effect */
+
+              -webkit-text-stroke: 1px #c5a274;
+              text-stroke: 1px #c5a274; /* Optional fallback for text-stroke */
             "
             class="ls-l ls-hide-tablet ls-hide-phone"
             data-ls="offsetxin:-200; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-200; durationout:1500; easingout:easeOutQuint;"
@@ -510,14 +582,14 @@
             ><span
               style="
                 top: 638px;
-                left: 370px;
+                left: 205px;
                 font-weight: 700;
                 background-size: inherit;
                 background-position: inherit;
                 padding-top: 0px;
                 padding-right: 47px;
                 padding-left: 47px;
-                font-family: syne;
+                font-family: 'Poppins';
                 font-size: 16px;
                 color: #fff;
                 border-radius: 9999px;
@@ -540,7 +612,7 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 80px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -556,7 +628,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 80px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -581,7 +654,8 @@
                 padding-top: 0px;
                 padding-right: 60px;
                 padding-left: 60px;
-                font-family: syne;
+                font-family: 'Poppins', sans-serif;
+
                 color: #fff;
                 border-radius: 9999px;
                 border-top: 2px solid #ffff;
@@ -604,7 +678,8 @@
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
               font-size: 95px;
             "
@@ -620,7 +695,8 @@
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
               font-size: 60px;
             "
@@ -645,7 +721,8 @@
                 padding-top: 0px;
                 padding-right: 80px;
                 padding-left: 80px;
-                font-family: syne;
+                font-family: 'Poppins', sans-serif;
+
                 color: #fff;
                 border-radius: 9999px;
                 border-top: 2px solid #ffff;
@@ -674,29 +751,45 @@
           <h1
             style="
               top: 304px;
-              left: 365px;
-              font-weight: 600;
+              left: 205px;
+              font-weight: '600';
               background-size: inherit;
               background-position: inherit;
               font-size: 60px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),
+                /* subtle dark shadow */ 0px 0px 20px rgba(197, 162, 116, 0.8),
+                /* glowing gold shadow */ 0px 0px 30px rgba(197, 162, 116, 0.6); /* more glow effect */
+
+              -webkit-text-stroke: 1px #c5a274; /* Gold stroke around the text */
+              text-stroke: 1px #c5a274; /* Optional fallback for text-stroke */
             "
             class="ls-l ls-hide-tablet ls-hide-phone"
             data-ls="offsetxin:-200; durationin:1500; easingin:easeOutQuint; offsetxout:-200; durationout:1500; easingout:easeOutQuint;"
           >
-            Purley's #1 Luxury Hair and Beauty Spa
+            Purley's
+            <span style="color: '#c5a274'; font-size: 100px; font-weight: '600'"
+              >#1</span
+            >
+            Luxury Hair and Beauty Spa
           </h1>
           <h1
             style="
-              top: 380px;
-              left: 365px;
+              top: 500px;
+              left: 205px;
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
               font-size: 35px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),
+                /* subtle dark shadow */ 0px 0px 20px rgba(197, 162, 116, 0.8),
+                /* glowing gold shadow */ 0px 0px 30px rgba(197, 162, 116, 0.6); /* more glow effect */
+
+              -webkit-text-stroke: 1px #c5a274;
+              text-stroke: 1px #c5a274; /* Optional fallback for text-stroke */
             "
             class="ls-l ls-hide-tablet ls-hide-phone"
             data-ls="offsetxin:-200; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-200; durationout:1500; easingout:easeOutQuint;"
@@ -704,6 +797,7 @@
             Winner of THE ENGLISH HAIR & BEAUTY AWARDS for BEST <br />
             HAIR & BEAUTY SALON
           </h1>
+
           <a
             class="ls-l ls-hide-tablet ls-hide-phone"
             href="https://www.phorest.com/salon/abihairbeautyspa"
@@ -712,14 +806,14 @@
             ><span
               style="
                 top: 638px;
-                left: 370px;
+                left: 205px;
                 font-weight: 700;
                 background-size: inherit;
                 background-position: inherit;
                 padding-top: 0px;
                 padding-right: 47px;
                 padding-left: 47px;
-                font-family: syne;
+                font-family: 'Poppins';
                 font-size: 16px;
                 color: #fff;
                 border-radius: 9999px;
@@ -742,7 +836,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 80px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -758,7 +853,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 80px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -782,7 +878,8 @@
                 padding-top: 0px;
                 padding-right: 60px;
                 padding-left: 60px;
-                font-family: syne;
+                font-family: 'Poppins', sans-serif;
+
                 color: #fff;
                 border-radius: 9999px;
                 border-top: 2px solid #ffff;
@@ -805,7 +902,8 @@
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
               font-size: 95px;
             "
@@ -821,7 +919,8 @@
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
               font-size: 95px;
             "
@@ -845,7 +944,8 @@
                 padding-top: 0px;
                 padding-right: 80px;
                 padding-left: 80px;
-                font-family: syne;
+                font-family: 'Poppins', sans-serif;
+
                 color: #fff;
                 border-radius: 9999px;
                 border-top: 2px solid #ffff;
@@ -874,29 +974,45 @@
           <h1
             style="
               top: 304px;
-              left: 365px;
-              font-weight: 600;
+              left: 205px;
+              font-weight: '600';
               background-size: inherit;
               background-position: inherit;
               font-size: 60px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),
+                /* subtle dark shadow */ 0px 0px 20px rgba(197, 162, 116, 0.8),
+                /* glowing gold shadow */ 0px 0px 30px rgba(197, 162, 116, 0.6); /* more glow effect */
+
+              -webkit-text-stroke: 1px #c5a274; /* Gold stroke around the text */
+              text-stroke: 1px #c5a274; /* Optional fallback for text-stroke */
             "
             class="ls-l ls-hide-tablet ls-hide-phone"
             data-ls="offsetxin:-200; durationin:1500; easingin:easeOutQuint; offsetxout:-200; durationout:1500; easingout:easeOutQuint;"
           >
-            Purley's #1 Luxury Hair and Beauty Spa
+            Purley's
+            <span style="color: '#c5a274'; font-size: 100px; font-weight: '600'"
+              >#1</span
+            >
+            Luxury Hair and Beauty Spa
           </h1>
           <h1
             style="
-              top: 380px;
-              left: 365px;
+              top: 500px;
+              left: 205px;
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
               font-size: 35px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
               color: #ffffff;
+              text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),
+                /* subtle dark shadow */ 0px 0px 20px rgba(197, 162, 116, 0.8),
+                /* glowing gold shadow */ 0px 0px 30px rgba(197, 162, 116, 0.6); /* more glow effect */
+
+              -webkit-text-stroke: 1px #c5a274;
+              text-stroke: 1px #c5a274; /* Optional fallback for text-stroke */
             "
             class="ls-l ls-hide-tablet ls-hide-phone"
             data-ls="offsetxin:-200; durationin:1500; delayin:400; easingin:easeOutQuint; offsetxout:-200; durationout:1500; easingout:easeOutQuint;"
@@ -913,14 +1029,14 @@
             ><span
               style="
                 top: 638px;
-                left: 370px;
+                left: 205px;
                 font-weight: 700;
                 background-size: inherit;
                 background-position: inherit;
                 padding-top: 0px;
                 padding-right: 47px;
                 padding-left: 47px;
-                font-family: syne;
+                font-family: 'Poppins';
                 font-size: 16px;
                 color: #fff;
                 border-radius: 9999px;
@@ -943,7 +1059,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 80px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -959,7 +1076,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 80px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -975,7 +1093,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 36px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #fff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -991,7 +1110,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 36px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #fff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -1007,7 +1127,8 @@
               background-size: inherit;
               background-position: inherit;
               font-size: 36px;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #fff;
             "
             class="ls-l ls-hide-desktop ls-hide-phone"
@@ -1030,7 +1151,8 @@
                 padding-top: 0px;
                 padding-right: 60px;
                 padding-left: 60px;
-                font-family: syne;
+                font-family: 'Poppins', sans-serif;
+
                 color: #fff;
                 border-radius: 9999px;
                 border-top: 2px solid #ffff;
@@ -1053,7 +1175,8 @@
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
               font-size: 95px;
             "
@@ -1069,7 +1192,8 @@
               font-weight: 600;
               background-size: inherit;
               background-position: inherit;
-              font-family: Syne;
+              font-family: 'Poppins', sans-serif;
+
               color: #ffffff;
               font-size: 95px;
             "
@@ -1093,7 +1217,8 @@
                 padding-top: 0px;
                 padding-right: 80px;
                 padding-left: 80px;
-                font-family: syne;
+                font-family: 'Poppins', sans-serif;
+
                 color: #fff;
                 border-radius: 9999px;
                 border-top: 2px solid #ffff;
